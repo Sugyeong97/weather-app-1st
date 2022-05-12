@@ -1,0 +1,38 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2019/05/19/23/47/clouds-4215608_960_720.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-box {
+  text-align: center;
+  color: #1ccdf1;
+  border: 3px solid #1ccdf1;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 30px;
+  background-color: #212529;
+  width: 50%;
+}
+
+.weather-button {
+  text-align: center;
+  padding: 30px;
+  border-radius: 30px;
+  border: 3px solid #1ccdf1;
+  background-color: #212529;
+  width: 100%;
+}
+
+.button-margin {
+  margin: 0px 10px;
+}
